@@ -1,0 +1,16 @@
+{
+	"name": "jQuery 1.x",
+	"currentVersion": "1.9.1",
+	"url": "http://jquery.com",
+	"locations": {
+		"mt": {
+			"urlTemplate": "#proto#://code.jquery.com/jquery-#version#.min.js"
+		},
+		"googleapis": {
+			"urlTemplate": "#proto#://ajax.googleapis.com/ajax/libs/jquery/#version#/jquery.min.js"
+		},
+		"aspnetcdn": {
+			"urlTemplate": "#proto#://ajax.aspnetcdn.com/ajax/jQuery/jquery-#version#.min.js"
+		}
+	}
+}

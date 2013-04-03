@@ -1,0 +1,62 @@
+
+html {
+	height: 100%;
+}
+
+body {
+	position: relative;
+	min-height: 100%;
+}
+
+.wrap {
+	padding-bottom: 80px;
+}
+
+footer {
+	position: absolute;
+	bottom: 0;
+
+	width: 100%;
+
+	height: 60px;
+}
+
+footer p {
+	line-height: 60px;
+	margin: 0;
+}
+
+
+.artifacts > li > a {
+}
+
+.artifacts .currentVersion {
+	display: inline-block;
+
+	margin-left: 1ex;
+
+	border-radius: 3px;
+	padding: 0px 5px;
+	background: #eee;
+
+	font-weight: bold;
+}
+
+.artifacts .locations li {
+	margin-top: 2px;
+}
+
+.artifacts .locations .provider {
+	display: inline-block;
+
+	margin-right: 1ex;
+	width: 10em;
+
+	text-align: center;
+
+	border-radius: 3px;
+	padding: 0px 5px;
+	background: #1abc9c;
+	color: #fff;
+}
+

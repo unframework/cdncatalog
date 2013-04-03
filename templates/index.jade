@@ -1,0 +1,22 @@
+extends layout
+
+block content
+	ul.artifacts
+		each artifactPage in contents.artifacts
+			- var artifact = artifactPage.metadata
+
+			li
+				a.name(href=artifact.url)= artifact.name
+
+				span.currentVersion= artifact.currentVersion
+
+				ul.locations
+					each location, providerId in artifact.locations
+						- var locationUrl = location.urlTemplate.replace('#proto#', 'http').replace('#version#', encodeURIComponent(artifact.currentVersion))
+						- var providerPage = contents.providers[providerId + '.json']
+						- var provider = providerPage ? providerPage.metadata : { name: providerId }
+
+						li(class=providerId)
+							span.provider= provider.name
+							a(href=locationUrl)= locationUrl
+

@@ -1,0 +1,26 @@
+!!! 5
+
+html(lang='en')
+	head
+		block head
+			meta(charset='utf-8')
+			title CDN Catalog
+
+			link(rel='stylesheet',href=locals.assets+'/flat-ui/css/bootstrap.css')
+			link(rel='stylesheet',href=locals.assets+'/flat-ui/css/flat-ui.css')
+			link(rel='stylesheet',href=locals.assets+'/theme.css')
+	body
+		.wrap
+			.container
+				.page-header
+					h1
+						a(href=locals.url) CDN Catalog
+
+				block content
+
+		footer
+			.container
+				.row
+					.span12
+						p &copy; #{ new Date().getFullYear() } &nbsp;
+							a(href='http://github.com/unframework') unframework on github.com
