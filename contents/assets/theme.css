@@ -8,6 +8,14 @@ body {
 	min-height: 100%;
 }
 
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
 .wrap {
 	padding-bottom: 80px;
 }
@@ -33,30 +41,30 @@ footer p {
 .artifacts .currentVersion {
 	display: inline-block;
 
-	margin-left: 1ex;
-
 	border-radius: 3px;
 	padding: 0px 5px;
-	background: #eee;
 
 	font-weight: bold;
+
+	background: #1abc9c;
+	color: #fff;
+
+	margin: 2px 0 2px 1ex;
 }
 
 .artifacts .locations li {
-	margin-top: 2px;
 }
 
 .artifacts .locations .provider {
 	display: inline-block;
 
-	margin-right: 1ex;
+	margin: 2px 1ex 2px;
 	width: 10em;
 
 	text-align: center;
 
 	border-radius: 3px;
 	padding: 0px 5px;
-	background: #1abc9c;
-	color: #fff;
+	background: #eee;
 }
 
