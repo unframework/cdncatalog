@@ -1,0 +1,10 @@
+{
+	"name": "Prototype",
+	"currentVersion": "1.7.1.0",
+	"url": "http://prototypejs.org/",
+	"locations": {
+		"googleapis": {
+			"urlTemplate": "#proto#://ajax.googleapis.com/ajax/libs/prototype/#version#/prototype.js"
+		}
+	}
+}

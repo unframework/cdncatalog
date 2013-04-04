@@ -1,0 +1,10 @@
+{
+	"name": "jQuery UI",
+	"currentVersion": "1.10.2",
+	"url": "http://jqueryui.com",
+	"locations": {
+		"googleapis": {
+			"urlTemplate": "#proto#://ajax.googleapis.com/ajax/libs/jqueryui/#version#/jquery-ui.min.js"
+		}
+	}
+}

@@ -1,0 +1,10 @@
+{
+	"name": "SWFObject",
+	"currentVersion": "2.2",
+	"url": "https://code.google.com/p/swfobject/",
+	"locations": {
+		"googleapis": {
+			"urlTemplate": "#proto#://ajax.googleapis.com/ajax/libs/swfobject/#version#/swfobject.js"
+		}
+	}
+}

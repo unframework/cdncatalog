@@ -1,0 +1,10 @@
+{
+	"name": "script.aculo.us",
+	"currentVersion": "1.9.0",
+	"url": "http://script.aculo.us/",
+	"locations": {
+		"googleapis": {
+			"urlTemplate": "#proto#://ajax.googleapis.com/ajax/libs/scriptaculous/#version#/scriptaculous.js"
+		}
+	}
+}
