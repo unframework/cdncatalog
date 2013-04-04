@@ -2,8 +2,11 @@ extends layout
 
 block content
 	ul.artifacts
-		each artifactPage in contents.artifacts
-			- var artifact = artifactPage.metadata
+		- var artifactNames = _(contents.artifacts).keys()
+		- artifactNames.sort()
+
+		each artifactName in artifactNames
+			- var artifact = contents.artifacts[artifactName].metadata
 
 			li
 				a.name(href=artifact.url)= artifact.name
@@ -17,6 +20,6 @@ block content
 						- var provider = providerPage ? providerPage.metadata : { name: providerId }
 
 						li(class=providerId)
-							span.provider= provider.name
+							a.provider(href=provider.url)= provider.name
 							a(href=locationUrl)= locationUrl
 
