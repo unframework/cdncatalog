@@ -1,6 +1,7 @@
 {
 	"locals": {
 		"url": "http://cdncatalog.net/",
-		"assets": "http://cdncatalog.net/assets"
+		"assets": "http://cdncatalog.net/assets",
+		"gaTrackerId": "1234"
 	}
 }
