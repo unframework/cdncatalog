@@ -20,6 +20,27 @@ a:hover {
 	padding-bottom: 80px;
 }
 
+.page-header h1,
+.page-header h1 a {
+	color: #C0392B;
+	text-decoration: none;
+}
+
+.wrap .container:after {
+	display: block;
+	margin-top: 30px;
+	padding-top: 20px;
+
+	font-size: 30px;
+	letter-spacing: 10px;
+
+	color: #C0392B;
+
+	text-align: center;
+
+	content: "\2219 \2219 \2219 \2219 \2219";
+}
+
 footer {
 	position: absolute;
 	bottom: 0;
@@ -35,7 +56,31 @@ footer p {
 }
 
 
-.artifacts > li > a {
+.artifacts {
+	margin: 0px;
+	padding: 0px;
+}
+
+.artifacts > li {
+	list-style-type: none;
+	padding-bottom: 11px;
+	border-bottom: 1px solid #f8f8f8;
+	margin-bottom: 12px;
+}
+
+.artifacts > li:last-child {
+	padding-bottom: 0px;
+	border-bottom: none;
+	margin-bottom: 0px;
+}
+
+.artifacts .name {
+	font-weight: bold;
+	color: inherit;
+}
+
+.artifacts .name:hover {
+	color: #1abc9c;
 }
 
 .artifacts .currentVersion {
@@ -46,13 +91,19 @@ footer p {
 
 	font-weight: bold;
 
-	background: #1abc9c;
-	color: #fff;
+	background: #eee;
+	color: #E74C3C;
 
-	margin: 2px 0 2px 1ex;
+	margin: 0 0 0 1.5ex;
 }
 
-.artifacts .locations li {
+.artifacts .locations {
+	margin-top: -22px;
+	margin-left: 200px;
+}
+
+.artifacts .locations > li {
+	list-style-type: none;
 }
 
 .artifacts .locations .provider {
