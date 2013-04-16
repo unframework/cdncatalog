@@ -20,6 +20,14 @@ a:hover {
 	padding-bottom: 80px;
 }
 
+.container {
+	position: relative;
+}
+
+.page-header {
+	width: 700px;
+}
+
 .page-header h1,
 .page-header h1 a {
 	color: #C0392B;
@@ -56,9 +64,17 @@ footer p {
 }
 
 
+.intro {
+	margin-top: -90px;
+	margin-left: 720px;
+	margin-bottom: 90px;
+	height: 0px;
+}
+
 .artifacts {
 	margin: 0px;
 	padding: 0px;
+	margin-right: 240px;
 }
 
 .artifacts > li {
@@ -99,7 +115,7 @@ footer p {
 
 .artifacts .locations {
 	margin-top: -22px;
-	margin-left: 200px;
+	margin-left: 160px;
 }
 
 .artifacts .locations > li {
@@ -109,13 +125,15 @@ footer p {
 .artifacts .locations .provider {
 	display: inline-block;
 
-	margin: 2px 1ex 2px;
-	width: 10em;
+	margin: 2px 16px 2px 0px;
+	width: 50px;
 
 	text-align: center;
 
 	border-radius: 3px;
 	padding: 0px 5px;
 	background: #eee;
+
+	font-size: 80%;
 }
 

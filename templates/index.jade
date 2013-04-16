@@ -1,6 +1,9 @@
 extends layout
 
 block content
+	.intro
+		!= page.html
+
 	ul.artifacts
 		- var artifactNames = _(contents.artifacts).keys()
 		- artifactNames.sort()
