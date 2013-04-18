@@ -1,0 +1,10 @@
+{
+	"name": "YUI CSS Reset Context",
+	"currentVersion": "3.9.1",
+	"url": "http://yuilibrary.com/yui/docs/cssreset/",
+	"locations": {
+		"yahooapis": {
+			"urlTemplate": "#proto#://yui.yahooapis.com/#version#/build/cssreset-context/cssreset-context-min.css"
+		}
+	}
+}
