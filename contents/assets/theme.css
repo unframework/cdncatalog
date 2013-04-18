@@ -82,6 +82,7 @@ footer p {
 	padding-bottom: 11px;
 	border-bottom: 1px solid #f8f8f8;
 	margin-bottom: 12px;
+	padding-right: 560px;
 }
 
 .artifacts > li:last-child {
@@ -110,16 +111,20 @@ footer p {
 	background: #eee;
 	color: #E74C3C;
 
-	margin: 0 0 0 1.5ex;
+	margin: 0;
 }
 
 .artifacts .locations {
 	margin-top: -22px;
 	margin-left: 160px;
+	margin-right: -560px;
 }
 
 .artifacts .locations > li {
 	list-style-type: none;
+	white-space: nowrap;
+
+	overflow: hidden;
 }
 
 .artifacts .locations .provider {
@@ -135,5 +140,9 @@ footer p {
 	background: #eee;
 
 	font-size: 80%;
+}
+
+.artifacts .locations .provider + a {
+	display: inline-block;
 }
 
