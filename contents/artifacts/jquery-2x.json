@@ -1,0 +1,10 @@
+{
+	"name": "jQuery 2.x",
+	"currentVersion": "2.0.0",
+	"url": "http://jquery.com",
+	"locations": {
+		"mt": {
+			"urlTemplate": "#proto#://code.jquery.com/jquery-#version#.min.js"
+		}
+	}
+}
